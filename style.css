@@ -32,10 +32,6 @@ h1{
   margin: 10px 0px;
 }
 
-h2{
-
-}
-
 .box-1 p{
   text-align: justify;
   width: 450px;
@@ -73,6 +69,7 @@ h2{
   max-width: 500px;
   height: 200px;
   border-radius: 2px;
+  color: #9a9898;
 }
 
 .box-2 table{
@@ -85,17 +82,13 @@ h2{
 }
 .logo td{
 margin: 38px 40px 0px 43px;
-
+display: inline-block;
 }
 
 .logo-name td{
 text-align: center;
 margin: 10px 33px 0px 18px;
-}
-
-td{
-  display: inline-block;
-  margin: 0px 15px;
+display: inline-block;
 }
 
 .box-2 td a{
@@ -103,7 +96,6 @@ td{
   text-decoration: none;
   font-size: 40px;
 }
-
 .box-3{
   margin: auto;
   margin-top: 20px;
@@ -111,12 +103,22 @@ td{
   box-shadow: 1px 1px 1px #888888;
   max-width: 500px;
   border-radius: 2px;
+  color: #9a9898;
 }
-
+.box-3 h2{
+  text-align: center;
+  padding: 20px;
+}
 .box-3 td{
   font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
 }
-
 .box-3 img{
-  height: 100px;
+  height: 130px;
+  margin: 10px;
+}
+.box-3 p{
+  text-align: justify;
+  margin: 15px;
 }
